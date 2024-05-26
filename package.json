@@ -1,0 +1,10 @@
+{
+  "name": "CI-CD-Pipeline-Project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Build step'",
+    "test": "echo 'Test step'",
+    "lint": "echo 'Lint step'",
+    "static-analysis": "echo 'Static analysis step'"
+  }
+}
