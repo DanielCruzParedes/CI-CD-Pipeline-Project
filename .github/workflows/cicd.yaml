@@ -101,6 +101,4 @@ jobs:
     needs: deploy
     steps:
       - name: Verify deployment
-        run: |
-          # Add your verification script here
-          echo "Deployment verification step"
+        run: echo "Deployment verification step"
