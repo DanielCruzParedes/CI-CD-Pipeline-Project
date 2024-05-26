@@ -1,8 +1,8 @@
 {
-  "name": "your-project-name",
+  "name": "CI-CD-Pipeline-Project",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p build && echo '<html><body><h1>Hello, World!</h1></body></html>' > build/index.html",
+    "build": "echo '<html><body><h1>Hello, my name is Daniel!</h1></body></html>' > build/index.html",
     "test": "echo 'Test step'",
     "lint": "echo 'Lint step'",
     "static-analysis": "echo 'Static analysis step'"
