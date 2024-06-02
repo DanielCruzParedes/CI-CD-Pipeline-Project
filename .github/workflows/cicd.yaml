@@ -107,4 +107,6 @@ jobs:
       - name: Verify deployment
         run: |
           echo "Verifying deployment"
-          curl -I https://DanielCruzParedes.github.io/CI-CD-Pipeline-Project/ | grep "200 OK"
+          for i in {1..5}; do
+            curl -I https://DanielCruzParedes.github.io/CI-CD-Pipeline-Project/ | grep "200 OK" && break || sleep 10
+          done
